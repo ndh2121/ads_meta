@@ -1,0 +1,139 @@
+.Wrapper_download {
+    background-color: #fef7e7;
+    height: 860px;
+    padding: 70px 105px 0 105px;
+    display: flex;
+    justify-content: center;
+}
+
+.section_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_desc {
+    margin-top: 30px;
+}
+.content_desc span {
+    color: #000;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.desc_manage {
+    margin-top: 14px;
+    width: 1036px;
+}
+
+.desc_manage h3 {
+    color: #183b56;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px; /* 108.824% */
+    letter-spacing: 0.2px;
+}
+
+.button_download {
+    margin-top: 50px;
+}
+
+.button_download button {
+    background-color: #faad13;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 20px 30px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.button_download span {
+    font-family: "Hanken Grotesk", sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.button_download button:hover {
+    background-color: #da9918;
+    transition: all .3s ease;
+}
+
+.section_img {
+    position: relative;
+}
+
+.img_wrapper img {
+    margin-top: 55px;
+    position: relative;
+    z-index: 10;
+}
+
+.img_pattern {
+    position: absolute;
+    top: 0;
+    right: 220px;
+    z-index: 1;
+}
+
+.img_shape {
+    position: absolute;
+    top: -100px;
+    left: 28px;
+    z-index: 11;
+}
+.img_shape img  {
+    /* width: 264px; */
+}
+.img_like {
+    position: absolute;
+    top: 260px;
+    right: 80px;
+    z-index: 11;
+}
+.img_like img {
+
+}
+
+.shape_hover {
+    position: absolute;
+    z-index: 1;
+    left: 110px;
+    top: 270px;
+}
+
+
+
+.manufacturer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -180px;
+    height: 400px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 46%, rgba(255, 255, 255, 1) 54%, rgba(255, 255, 255, 0) 100%);
+    z-index: 10;
+    width: 100%;
+}
+.manufacturer_wrapper {
+    display: flex;
+    gap: 56px;
+    justify-content: center;
+    align-items: center;
+}
+

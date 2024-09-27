@@ -1,0 +1,106 @@
+.top_header {
+    background-color: #f8f8f8;
+    height: 3.8rem;
+    display: flex;
+    justify-content: center;
+}
+.top_header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 140px;
+}
+
+.phone span {
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.free span {
+    color: #faad13;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.list_contry {
+    padding: 2px 5px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.list_contry span {
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.list_contry svg {
+    cursor: pointer;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 140px;
+}
+
+.header {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8.2rem;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 4.4rem;
+}
+
+.nav_item a {
+    color: #1d1c20;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+}
+
+.nav_item a:hover {
+    transition: all .2s ease;
+    color: #FAAD13;
+}
+
+.nav_button button {
+    display: flex;
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background-color: #FAAD13;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.nav_button button:hover {
+    background-color: #da9918;
+    transition: all .4s ease;
+}

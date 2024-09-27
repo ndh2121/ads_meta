@@ -1,0 +1,101 @@
+.lkcloiur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lkcloiur_wrapper {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.lkcloiur_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 56px;
+    height: 600px;
+    position: relative;
+}
+
+.lkcloiur_text {
+    width: 674px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.lkcloiur_text p {
+    text-align: left;
+}
+
+.lkcloiur_text h4 {
+    color: #183b56;
+    font-family: "Hanken Grotesk";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; /* 130% */
+    letter-spacing: 0.2px;
+}
+
+.lkcloiur_text p {
+    color: #5a7184;
+    font-family: "Hanken Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+}
+
+.slkjocs button {
+    padding: 20px 60px;
+    font-size: 18px;
+}
+
+.lkcloiur_img {
+    position: relative;
+    flex: 1;
+    width: 600px;
+    height: 447px;
+    border-radius: 30px;
+    overflow: visible;
+}
+
+.lkcloiur_img img {
+    height: 600px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    border: 20px solid transparent; /* Tạo viền trong suốt */
+    background-image: linear-gradient(to top right, #faad13, #0076fc);
+    background-origin: border-box;
+    background-clip: padding-box, border-box; /* Clip viền */
+    background-size: cover;
+    padding: 20px;
+    border-radius: 55px;
+}
+
+.lkcloiur_img2 img {
+    height: 600px;
+    top: 0;
+    position: absolute;
+    left: -240px;
+    border: 20px solid transparent; /* Tạo viền trong suốt */
+    background-image: linear-gradient(to top right, #faad13, #0076fc);
+    background-origin: border-box;
+    background-clip: padding-box, border-box; /* Clip viền */
+    background-size: cover;
+    padding: 20px;
+    border-radius: 55px;
+}
+
+.owiurnkjj {
+    color: #faad13 !important;
+    font-family: "Hanken Grotesk";
+    font-size: 22px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 30px !important; /* 136.364% */
+}

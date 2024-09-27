@@ -1,0 +1,120 @@
+.LoveByUser {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoveByUser_wrapper {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.slcjoilk {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.slcjoilk p {
+    color: #183b56;
+    font-family: "Hanken Grotesk";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; /* 130% */
+    letter-spacing: 0.2px;
+}
+
+.list_loveByUser {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.item-slider {
+    padding: 44px 40px;
+    /* border-radius: 8px; */
+    box-shadow: 0px 15px 35px 0px rgba(0, 0, 0, 0.1);
+    /* margin-right: 30px; */
+}
+
+.slick-track {
+    transform: translate3d(-2640px, 0px, 0px);
+}
+
+.slick-slide {
+}
+
+.slick-next {
+    top: -92px !important;
+    right: 85px !important;
+}
+
+.slick-prev {
+    top: -92px !important;
+    left: 1260px !important;
+}
+
+.ava {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.ava_img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+.star {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.text-slider {
+    margin-top: 30px;
+    color: #183b56;
+    font-family: "Hanken Grotesk";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 180% */
+    text-align: left;
+}
+
+.text-slider span {
+    color: #183b56;
+    font-family: "Hanken Grotesk";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.author {
+    margin-top: 60px;
+    color: #183b56;
+    font-family: "Hanken Grotesk";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.2px;
+    text-align: left;
+
+}
+
+.author_desc {
+    margin-top: 10px;
+    color: #5a7184;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    text-align: left;
+
+}

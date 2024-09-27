@@ -1,0 +1,78 @@
+.footer {
+    margin-top: 130px;
+    background-color: #171f24;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_wrapper {
+    width: 116rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.jocwjc {
+    color: #fff;
+    font-family: "Hanken Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 122.222% */
+}
+
+.slkujcoiw {
+    color: #fff;
+    font-family: "Hanken Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.quick_link{
+    display: flex;
+    gap: 140px;
+}
+
+.footer_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer_icon {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sjcowclsj {
+    text-align: left;
+    color: #f5f5f5;
+    font-family: "Hanken Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lkjcoiwur {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.lkjcoiw {
+    color: #f5f5f5;
+    font-family: "Hanken Grotesk";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 242.857% */
+}

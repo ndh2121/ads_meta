@@ -1,0 +1,37 @@
+.company_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.company {
+    position: relative;
+    z-index: 11;
+    margin-top: 300px;
+    color: #183b56;
+    text-align: center;
+    font-family: "Hanken Grotesk";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 100% */
+    letter-spacing: 0.2px;
+}
+
+.list_company {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-bottom: 30px;
+}   
+
+.company_item {
+    width: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.company_item img {
+    width: 100%;
+}

@@ -1,0 +1,84 @@
+.Send_email {
+    background: rgba(0, 0, 0, 0.02);
+    padding: 88px 0;
+}
+.oljklck {
+    color: #faad13;
+    text-align: center;
+    font-family: "Hanken Grotesk";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.Send_email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ljcdoiw {
+    margin-top: 14px;
+    color: #14171d;
+    text-align: center;
+    font-family: "Hanken Grotesk";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+.olsjkcl {
+    margin-top: 4px;
+    color: #000;
+    text-align: center;
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.input_email {
+    margin-top: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.lscjkl {
+    padding: 15px 20px;
+    border-radius: 100px;
+    border: 1px solid var(--Grey-colours-Neutral-Grey-600, #dcdcde);
+    background: var(--Grey-colours-Neutral-Grey-100, #fdfdfd);
+}
+.lscjkl input {
+    border: none;
+    outline: none;
+    width: 460px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: var(--Grey-colours-Neutral-Grey-1000, #4f4d55);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 137.5% */
+}
+
+.input_email button {
+    display: flex;
+    height: 52px;
+    padding: 15px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    background: var(--faad-13, #faad13);
+}
+
+.input_email button img {
+    width: 22px;
+    height: 22px;
+}

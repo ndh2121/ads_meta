@@ -1,0 +1,56 @@
+.cojocijs {
+    color: #000;
+    text-align: center;
+    font-family: "Hanken Grotesk";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.whyChooseUs {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jsdlkcjow {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.jsdlkcjow h5 {
+    color: #000;
+    text-align: center;
+    font-family: "Hanken Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.jsdlkcjow p {
+    color: #3c4f65;
+    text-align: center;
+    font-family: "Hanken Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 122.222% */
+}
+
+.list_whyChooseUs {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.item_whyChooseUs {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    width: 278px;
+}
+

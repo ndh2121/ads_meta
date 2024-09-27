@@ -1,0 +1,36 @@
+.submit_wrapper {
+    height: 722px;
+    background-color: #FAAD13;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.lkscjlsk {
+    position: absolute;
+}
+
+.submit_ava {
+    position: relative;
+}
+
+
+.round_yellow {
+    position: absolute;
+    top: 90px;
+    z-index: 1;
+    width: 336px;
+    height: 336px;
+    border-radius: 50%;
+    background-color: #FDDA95;
+}
+.submit_ava img {
+    position: absolute;
+    top: 174px;
+    z-index: 10;
+}
+
+.submit_content {
+    display: flex;
+    justify-content: center;
+}
